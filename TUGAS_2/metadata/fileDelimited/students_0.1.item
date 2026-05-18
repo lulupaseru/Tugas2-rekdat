@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_rkPigFB7EfGNUZY_pXIyuQ" name="students" dataPackage="_rkQwoFB7EfGNUZY_pXIyuQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Satrio/Documents/semester 8/rekdat/Tugas 2/Data/students.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_rkQwoFB7EfGNUZY_pXIyuQ" name="default" dataManager="_rkPigFB7EfGNUZY_pXIyuQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_rkRXsFB7EfGNUZY_pXIyuQ" id="_Y9ZjMFB7EfGNUZY_pXIyuQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rkRXsVB7EfGNUZY_pXIyuQ" label="student_id" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rkRXslB7EfGNUZY_pXIyuQ" label="full_name" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rkRXs1B7EfGNUZY_pXIyuQ" label="email" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

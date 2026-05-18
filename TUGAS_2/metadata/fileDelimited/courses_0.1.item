@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_RI_9UFB8EfGNUZY_pXIyuQ" name="courses" dataPackage="_RI_9UVB8EfGNUZY_pXIyuQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Satrio/Documents/semester 8/rekdat/Tugas 2/Data/courses.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RI_9UVB8EfGNUZY_pXIyuQ" name="default" dataManager="_RI_9UFB8EfGNUZY_pXIyuQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RI_9UlB8EfGNUZY_pXIyuQ" id="_NwzScFB8EfGNUZY_pXIyuQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RI_9U1B8EfGNUZY_pXIyuQ" label="course_id" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RI_9VFB8EfGNUZY_pXIyuQ" label="course_name" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
